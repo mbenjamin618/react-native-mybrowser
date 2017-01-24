@@ -1,11 +1,11 @@
 'use strict';
-import React, {
+import React, {Component} from 'react'
+import {
   Image,
   TextInput,
   TouchableOpacity,
   Text,
   View,
-  Component
 } from 'react-native';
 import styles from './styles';
 const TEXT_INPUT_REF = 'urlInput';
